@@ -11,7 +11,6 @@ import {
   CardMedia,
   CardContent,
 } from "@mui/material";
-import { Linking } from "react";
 
 const Portfolio = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
