@@ -38,7 +38,7 @@ const Portfolio = () => {
             just personnal training.
           </p>
           <Grid container spacing={2}>
-            <Grid xs={12} sm={6} md={4}>
+            <Grid xs={12} sm={6}>
               <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea
                   component="a"
@@ -53,18 +53,16 @@ const Portfolio = () => {
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h3" component="div">
-                      Lizard
+                      Pizza
                     </Typography>
                     <Typography variant="body">
-                      Lizards are a widespread group of squamate reptiles, with
-                      over 6,000 species, ranging across all continents except
-                      Antarctica
+                      Here is a pizza delivery project made with NextJS.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid xs={12} sm={6} md={4}>
+            {/* <Grid xs={12} sm={6}>
               <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea>
                   <CardMedia
@@ -86,7 +84,7 @@ const Portfolio = () => {
                 </CardActionArea>
               </Card>
             </Grid>
-            <Grid xs={12} sm={6} md={4}>
+            <Grid xs={12} sm={6}>
               <Card sx={{ maxWidth: 345 }}>
                 <CardActionArea>
                   <CardMedia
@@ -107,7 +105,7 @@ const Portfolio = () => {
                   </CardContent>
                 </CardActionArea>
               </Card>
-            </Grid>
+            </Grid> */}
           </Grid>
         </div>
       </div>
