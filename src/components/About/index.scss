@@ -1,4 +1,7 @@
 .stage-cube-cont {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
   width: 50%;
   height: 100%;
   top: 0;
@@ -10,6 +13,9 @@
 }
 
 .cubespinner {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
   animation-name: spincube;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;

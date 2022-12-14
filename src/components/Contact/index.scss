@@ -3,7 +3,7 @@
   margin-top: 20px;
 
   ul {
-    padding: 0;
+    padding: 2%;
     margin: 0;
     li {
       padding: 0;
@@ -78,6 +78,9 @@
 }
 
 .info-map {
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
   position: absolute;
   background-color: black;
   top: 50px;
@@ -103,6 +106,9 @@
 }
 
 .map-wrap {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
   background: rgba(8, 253, 216, 0.1);
   float: right;
   width: 53%;
@@ -110,6 +116,9 @@
 }
 
 .leaflet-container {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
   width: 100%;
   height: 100%;
   position: relative;

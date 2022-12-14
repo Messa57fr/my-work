@@ -1,5 +1,11 @@
 .home-page {
   .text-zone {
+    @media screen and (max-width: 900px) {
+      align-items: center;
+      left: 15%;
+      width: 80%;
+      padding: 0 4%;
+    }
     position: absolute;
     left: 10%;
     top: 50%;
@@ -9,7 +15,7 @@
   }
   h1 {
     color: white;
-    font-size: 53px;
+    font-size: 48px;
     margin: 0;
     font-family: "Coolvetica";
     font-weight: 400;
@@ -26,15 +32,17 @@
     }
 
     &::after {
-      content: "</h1>";
-      font-family: "Source Code Pro";
-      color: #ffd700;
-      font-size: 18px;
-      position: absolute;
-      margin-top: 42px;
-      margin-left: 20px;
-      animation: fadeIn 1s 2s backwards;
-      opacity: 0.4;
+      @media screen and (min-width: 900px) {
+        content: "</h1>";
+        font-family: "Source Code Pro";
+        color: #ffd700;
+        font-size: 18px;
+        position: absolute;
+        margin-top: 42px;
+        margin-left: 20px;
+        animation: fadeIn 1s 2s backwards;
+        opacity: 0.4;
+      }
     }
 
     img {
